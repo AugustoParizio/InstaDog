@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;   /*margem*/
+    padding: 0;  /*espaçãmento*/
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: #F0F0F0;
+}
+
+.conteudo {
+    margin: 45px auto;
+    width: 800px;
+    height: 600px;
+
+}
+
+.esquerda{
+    width: 49%;
+    height: 100%;
+    float: left;
+    background-image: url("img-dogs/dogphone.png");
+    background-repeat: no-repeat;
+    background-size: cover;/*ocupa todo o espaço da div*/
+}
+
+.direita{
+    width: 50%;
+    height: 100%;
+    float: right;
+    padding: 15px;
+    text-align: center;
+
+}
+
+.quadro-login{
+    border: 1px solid rgb(209, 208, 208);
+    height: 400px;
+    background-color: white;
+    text-align: center;
+}
+
+.quadro-login p {
+    margin-bottom: 20px;
+    
+}
+
+.campo{
+    height: 40px;
+    width: 300px;
+    border-radius: 4px;
+
+}
+
+.botao{
+    width: 300px;
+    height: 30px;
+    background-color: rgb(158, 238, 252);
+    border: 0px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.linha1{
+    border: 1px solid;
+    width: 100px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: silver;
+    
+}
+
+.ou{
+    color: silver;
+    font-size: 20px;
+    font-weight: 400; 
+    
+}
+
+
+.linha2{
+    
+        border: 1px solid;
+        width: 100px;
+        float: right;
+        margin-right: 30px;
+        margin-top: 10px;  
+        color: silver;
+}
+
+.quadro-conta{
+    border: 1px solid rgb(209, 208, 208);
+    height: 70px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.quadro-login{
+    font-size: 40px;
+   
+
+}
+
+.facebook{
+    text-decoration: sandybrown;
+    text-align: right;
+
+}
+
+.facebook img{
+    float: left;
+    margin-left: 20%;
+    margin-right: 0;
+    
+}
+
+.facebook p{
+   text-decoration: none;
+   margin-top: 1px;
+   font-size: 15px;
+   float: left;
+   margin-left: 20px;
+   color: rgb(32, 217, 250);
+  
+}
+
+.esqueceu{
+    text-decoration: none;
+    margin-top: 1px;
+    font-size: 15px;
+    float: left;
+    margin-left: 120px;
+    color: silver;
+    
+}
+
+.quadro-conta{
+    border: 1px solid rgb(209, 208, 208);
+    height: 70px;
+    background-color: white;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: auto;
+    font-size: 12px;
+    color: silver;
+    font-weight: lighter;
+}
+
+.cadastro{
+    color: rgb(32, 217, 250);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    
+}
+
+.obtenha{
+    color: rgb(128, 126, 126);
+    height: 5px;
+}
+
